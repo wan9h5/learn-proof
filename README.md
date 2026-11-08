@@ -25,7 +25,17 @@ The initial demo is grounded in the first four lessons from [ai-agent-learn](htt
 
 The first three lessons are marked as studied; the fourth is the current lesson. This is demo progress data and can be changed in the UI.
 
-## Question formats\n\nThe demo includes 30 questions across concept understanding, code reading, execution reasoning, workflow ordering, debugging, and scenario decisions. Answers include explanations and links to the relevant knowledge point.\n\n## Run locally
+## Question formats
+
+The demo includes 33 questions across concept understanding, code reading, execution reasoning, workflow reasoning, debugging, scenario decisions, and three code-snippet selection formats:
+
+- **Select the correct snippet** — compare several implementations and choose the one that meets the requirement.
+- **Complete code by selecting a snippet** — inspect an incomplete implementation and choose the missing method or expression.
+- **Choose a complete implementation** — compare multi-line code blocks, including prompt templates and message history.
+
+Code options are displayed as selectable code cards with lightweight Python syntax coloring. Answers include explanations and the related knowledge point.
+
+## Run locally
 
 ```bash
 npm install
