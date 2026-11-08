@@ -25,7 +25,7 @@ The initial demo is grounded in the first four lessons from [ai-agent-learn](htt
 
 The first three lessons are marked as studied; the fourth is the current lesson. This is demo progress data and can be changed in the UI.
 
-## Run locally
+## Question formats\n\nThe demo includes 30 questions across concept understanding, code reading, execution reasoning, workflow ordering, debugging, and scenario decisions. Answers include explanations and links to the relevant knowledge point.\n\n## Run locally
 
 ```bash
 npm install
